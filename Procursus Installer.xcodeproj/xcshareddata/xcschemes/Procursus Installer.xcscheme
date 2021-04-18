@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93A12ED52491C3E200765143"
-               BuildableName = "Betelguese.app"
-               BlueprintName = "Betelguese"
-               ReferencedContainer = "container:Betelguese.xcodeproj">
+               BuildableName = "Procursus Installer.app"
+               BlueprintName = "Procursus Installer"
+               ReferencedContainer = "container:Procursus Installer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93A12ED52491C3E200765143"
-            BuildableName = "Betelguese.app"
-            BlueprintName = "Betelguese"
-            ReferencedContainer = "container:Betelguese.xcodeproj">
+            BuildableName = "Procursus Installer.app"
+            BlueprintName = "Procursus Installer"
+            ReferencedContainer = "container:Procursus Installer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93A12ED52491C3E200765143"
-            BuildableName = "Betelguese.app"
-            BlueprintName = "Betelguese"
-            ReferencedContainer = "container:Betelguese.xcodeproj">
+            BuildableName = "Procursus Installer.app"
+            BlueprintName = "Procursus Installer"
+            ReferencedContainer = "container:Procursus Installer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,11 +15,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Betelguese" id="1Xt-HY-uBw">
+                            <menuItem title="Procursus Installer" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Betelguese" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Procursus Installer" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Betelguese" id="5kV-Vb-QxS">
+                                        <menuItem title="About Procursus Installer" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <segue destination="K2q-w9-unQ" kind="show" id="Vz9-Fc-RAp"/>
@@ -31,7 +31,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Betelguese" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Procursus Installer" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -49,7 +49,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Betelguese" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Procursus Installer" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -73,7 +73,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="Betelguese Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Procursus Installer Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Voe-Tx-rLC" id="I6K-sN-4A8"/>
                                             </connections>
@@ -87,7 +87,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Betelguese" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Procursus_Installer" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -96,8 +96,8 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="Betelguese" customModuleProvider="target" sceneMemberID="viewController">
-                    <window key="window" title="Betelguese" separatorStyle="none" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA">
+                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="Procursus_Installer" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Procursus Installer" separatorStyle="none" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="640" height="450"/>
@@ -147,7 +147,7 @@
                                     <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qM2-Ne-vTM">
                                         <rect key="frame" x="0.0" y="0.0" width="144" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="About Betelguese" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9mh-DT-Ivs">
+                                        <buttonCell key="cell" type="push" title="About Procursus Installer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9mh-DT-Ivs">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" usesAppearanceFont="YES"/>
                                         </buttonCell>
@@ -173,7 +173,7 @@
         <scene sceneID="H1I-pk-k1P">
             <objects>
                 <windowController id="K2q-w9-unQ" sceneMemberID="viewController">
-                    <window key="window" title="About Betelguese" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="0Ls-sE-PqY">
+                    <window key="window" title="About Procursus Installer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="0Ls-sE-PqY">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="294" y="362" width="480" height="270"/>
@@ -193,7 +193,7 @@
         <!--About View Controller-->
         <scene sceneID="GiQ-h5-mJz">
             <objects>
-                <viewController id="FIK-jU-6e2" customClass="AboutViewController" customModule="Betelguese" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FIK-jU-6e2" customClass="AboutViewController" customModule="Procursus_Installer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" misplaced="YES" id="VfE-gd-T10">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="618"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -213,8 +213,8 @@
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="AppIconImage" id="8Xo-yN-Jn7"/>
                                         </imageView>
                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yTd-CC-XyW">
-                                            <rect key="frame" x="200" y="515" width="80" height="17"/>
-                                            <textFieldCell key="cell" lineBreakMode="clipping" title="Betelguese" id="X9n-cs-5dk">
+                                            <rect key="frame" x="175" y="515" width="131" height="17"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="Procursus Installer" id="X9n-cs-5dk">
                                                 <font key="font" metaFont="systemSemibold" size="14"/>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -932,7 +932,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Betelguese" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Procursus_Installer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="640" height="450"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -943,7 +943,7 @@
                                     <constraint firstAttribute="height" constant="450" id="fl3-gM-W2Y"/>
                                     <constraint firstAttribute="width" constant="640" id="rbG-Pu-O9q"/>
                                 </constraints>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyUpOrDown" image="background" id="0SG-ku-b1L"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyUpOrDown" image="procursus" id="0SG-ku-b1L"/>
                             </imageView>
                             <box boxType="custom" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="pQN-Lo-KTy">
                                 <rect key="frame" x="145" y="204" width="350" height="64"/>
@@ -1015,7 +1015,7 @@
                                         <subviews>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dfr-EB-fRe">
                                                 <rect key="frame" x="-2" y="0.0" width="264" height="16"/>
-                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Connect your device to continue." id="cG0-ye-Qfs">
+                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Ready to begin installation." id="cG0-ye-Qfs">
                                                     <font key="font" metaFont="systemMedium" size="13"/>
                                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1042,8 +1042,8 @@
                                         </constraints>
                                     </customView>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SUs-8s-WRM">
-                                        <rect key="frame" x="55" y="-7" width="151" height="32"/>
-                                        <buttonCell key="cell" type="push" title="Install Odysseyra1n" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4L9-oL-ZXG">
+                                        <rect key="frame" x="61" y="-7" width="138" height="32"/>
+                                        <buttonCell key="cell" type="push" title="Begin Installation" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4L9-oL-ZXG">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -1087,13 +1087,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="k6a-Jw-7z0"/>
+        <segue reference="Vz9-Fc-RAp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AppIconImage" width="128" height="128"/>
-        <image name="GithubIcon" width="48" height="48"/>
-        <image name="TwitterIcon" width="48" height="48"/>
-        <image name="background" width="640" height="450"/>
+        <image name="GithubIcon" width="96" height="96"/>
+        <image name="TwitterIcon" width="96" height="96"/>
+        <image name="procursus" width="769" height="540"/>
         <namedColor name="Color">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

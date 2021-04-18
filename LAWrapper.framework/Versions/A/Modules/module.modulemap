@@ -1,0 +1,6 @@
+framework module LAWrapper {
+  umbrella header "LAWrapper.h"
+
+  export *
+  module * { export * }
+}

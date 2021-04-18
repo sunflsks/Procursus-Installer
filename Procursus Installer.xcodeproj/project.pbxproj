@@ -7,41 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1079B0DD262B6F880098E71A /* CUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1079B0DC262B6F880098E71A /* CUtils.m */; };
+		10E04C02262A180F00A91F35 /* LAWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E04BFF262A177200A91F35 /* LAWrapper.framework */; };
+		10E04C03262A180F00A91F35 /* LAWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10E04BFF262A177200A91F35 /* LAWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9330C5AC2493D27C0070CB55 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9330C5AB2493D27C0070CB55 /* SDWebImage */; };
 		9330C5AE2493D2A30070CB55 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330C5AD2493D2A30070CB55 /* AboutViewController.swift */; };
-		937A087826182467004A6D0A /* MobileDevice.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 937A087726182467004A6D0A /* MobileDevice.tbd */; };
-		937A087E26182ABE004A6D0A /* MobileDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A087D26182ABE004A6D0A /* MobileDevice.swift */; };
-		937E90822607041D00B9AD28 /* COPYING.sshpass.txt in Resources */ = {isa = PBXBuildFile; fileRef = 937E90812607041D00B9AD28 /* COPYING.sshpass.txt */; };
 		938B18E8249262D8008153AB /* COPYING.libplist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 938B18E6249262D8008153AB /* COPYING.libplist.txt */; };
-		938B18E9249262D8008153AB /* COPYING.libusbmuxd.txt in Resources */ = {isa = PBXBuildFile; fileRef = 938B18E7249262D8008153AB /* COPYING.libusbmuxd.txt */; };
-		938B18ED24926724008153AB /* iproxy in Resources */ = {isa = PBXBuildFile; fileRef = 938B18EA24926317008153AB /* iproxy */; };
 		938B18F324939CFA008153AB /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B18F224939CFA008153AB /* WindowController.swift */; };
 		93A12EDA2491C3E200765143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A12ED92491C3E200765143 /* AppDelegate.swift */; };
 		93A12EDC2491C3E200765143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A12EDB2491C3E200765143 /* ViewController.swift */; };
 		93A12EDE2491C3E600765143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A12EDD2491C3E600765143 /* Assets.xcassets */; };
 		93A12EE12491C3E600765143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A12EDF2491C3E600765143 /* Main.storyboard */; };
-		93A12EEA249207AA00765143 /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A12EE9249207AA00765143 /* BackgroundImage.swift */; };
-		93A878FC25FDBCBD00187BCB /* sshpass in Resources */ = {isa = PBXBuildFile; fileRef = 93A878FB25FDBCBD00187BCB /* sshpass */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		10E04C04262A180F00A91F35 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				10E04C03262A180F00A91F35 /* LAWrapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1079B0DB262B6F880098E71A /* CUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUtils.h; sourceTree = "<group>"; };
+		1079B0DC262B6F880098E71A /* CUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUtils.m; sourceTree = "<group>"; };
+		10E04BFF262A177200A91F35 /* LAWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LAWrapper.framework; sourceTree = "<group>"; };
 		9330C5AD2493D2A30070CB55 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		937A087026181EF9004A6D0A /* MobileDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
-		937A087126181F14004A6D0A /* Betelguese-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Betelguese-Bridging-Header.h"; sourceTree = "<group>"; };
-		937A087726182467004A6D0A /* MobileDevice.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = MobileDevice.tbd; sourceTree = "<group>"; };
-		937A087D26182ABE004A6D0A /* MobileDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDevice.swift; sourceTree = "<group>"; };
-		937E90812607041D00B9AD28 /* COPYING.sshpass.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.sshpass.txt; sourceTree = "<group>"; };
+		937A087126181F14004A6D0A /* ProcursusInstaller-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProcursusInstaller-Bridging-Header.h"; sourceTree = "<group>"; };
 		938B18E6249262D8008153AB /* COPYING.libplist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.libplist.txt; sourceTree = "<group>"; };
-		938B18E7249262D8008153AB /* COPYING.libusbmuxd.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.libusbmuxd.txt; sourceTree = "<group>"; };
 		938B18EA24926317008153AB /* iproxy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = iproxy; sourceTree = "<group>"; };
 		938B18F224939CFA008153AB /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
-		93A12ED62491C3E200765143 /* Betelguese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betelguese.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A12ED62491C3E200765143 /* Procursus Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Procursus Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A12ED92491C3E200765143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A12EDB2491C3E200765143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93A12EDD2491C3E600765143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93A12EE02491C3E600765143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93A12EE22491C3E600765143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A12EE9249207AA00765143 /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
 		93A878F825FDB0B400187BCB /* Betelguese.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Betelguese.entitlements; sourceTree = "<group>"; };
 		93A878FB25FDBCBD00187BCB /* sshpass */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sshpass; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937A087826182467004A6D0A /* MobileDevice.tbd in Frameworks */,
+				10E04C02262A180F00A91F35 /* LAWrapper.framework in Frameworks */,
 				9330C5AC2493D27C0070CB55 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +69,8 @@
 		93A12ECD2491C3E200765143 = {
 			isa = PBXGroup;
 			children = (
-				93A12ED82491C3E200765143 /* Betelguese */,
+				10E04BFF262A177200A91F35 /* LAWrapper.framework */,
+				93A12ED82491C3E200765143 /* Procursus Installer */,
 				93A12ED72491C3E200765143 /* Products */,
 			);
 			indentWidth = 4;
@@ -73,57 +81,54 @@
 		93A12ED72491C3E200765143 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A12ED62491C3E200765143 /* Betelguese.app */,
+				93A12ED62491C3E200765143 /* Procursus Installer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93A12ED82491C3E200765143 /* Betelguese */ = {
+		93A12ED82491C3E200765143 /* Procursus Installer */ = {
 			isa = PBXGroup;
 			children = (
 				938B18EA24926317008153AB /* iproxy */,
 				93A878FB25FDBCBD00187BCB /* sshpass */,
 				938B18E6249262D8008153AB /* COPYING.libplist.txt */,
-				938B18E7249262D8008153AB /* COPYING.libusbmuxd.txt */,
-				937E90812607041D00B9AD28 /* COPYING.sshpass.txt */,
-				937A087026181EF9004A6D0A /* MobileDevice.h */,
-				937A087726182467004A6D0A /* MobileDevice.tbd */,
-				937A087D26182ABE004A6D0A /* MobileDevice.swift */,
 				93A12ED92491C3E200765143 /* AppDelegate.swift */,
 				93A12EDB2491C3E200765143 /* ViewController.swift */,
+				1079B0DB262B6F880098E71A /* CUtils.h */,
+				1079B0DC262B6F880098E71A /* CUtils.m */,
 				938B18F224939CFA008153AB /* WindowController.swift */,
 				9330C5AD2493D2A30070CB55 /* AboutViewController.swift */,
 				93A12EDD2491C3E600765143 /* Assets.xcassets */,
 				93A12EDF2491C3E600765143 /* Main.storyboard */,
-				93A12EE9249207AA00765143 /* BackgroundImage.swift */,
 				93A12EE22491C3E600765143 /* Info.plist */,
 				93A878F825FDB0B400187BCB /* Betelguese.entitlements */,
-				937A087126181F14004A6D0A /* Betelguese-Bridging-Header.h */,
+				937A087126181F14004A6D0A /* ProcursusInstaller-Bridging-Header.h */,
 			);
-			path = Betelguese;
+			path = "Procursus Installer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93A12ED52491C3E200765143 /* Betelguese */ = {
+		93A12ED52491C3E200765143 /* Procursus Installer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93A12EE62491C3E600765143 /* Build configuration list for PBXNativeTarget "Betelguese" */;
+			buildConfigurationList = 93A12EE62491C3E600765143 /* Build configuration list for PBXNativeTarget "Procursus Installer" */;
 			buildPhases = (
 				93A12ED22491C3E200765143 /* Sources */,
 				93A12ED32491C3E200765143 /* Frameworks */,
 				93A12ED42491C3E200765143 /* Resources */,
+				10E04C04262A180F00A91F35 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Betelguese;
+			name = "Procursus Installer";
 			packageProductDependencies = (
 				9330C5AB2493D27C0070CB55 /* SDWebImage */,
 			);
 			productName = Odysseyra1n;
-			productReference = 93A12ED62491C3E200765143 /* Betelguese.app */;
+			productReference = 93A12ED62491C3E200765143 /* Procursus Installer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +139,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1240;
-				ORGANIZATIONNAME = "23 Aaron";
+				ORGANIZATIONNAME = sunflsks;
 				TargetAttributes = {
 					93A12ED52491C3E200765143 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -142,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93A12ED12491C3E200765143 /* Build configuration list for PBXProject "Betelguese" */;
+			buildConfigurationList = 93A12ED12491C3E200765143 /* Build configuration list for PBXProject "Procursus Installer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93A12ED52491C3E200765143 /* Betelguese */,
+				93A12ED52491C3E200765143 /* Procursus Installer */,
 			);
 		};
 /* End PBXProject section */
@@ -168,10 +173,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938B18ED24926724008153AB /* iproxy in Resources */,
-				937E90822607041D00B9AD28 /* COPYING.sshpass.txt in Resources */,
-				938B18E9249262D8008153AB /* COPYING.libusbmuxd.txt in Resources */,
-				93A878FC25FDBCBD00187BCB /* sshpass in Resources */,
 				938B18E8249262D8008153AB /* COPYING.libplist.txt in Resources */,
 				93A12EDE2491C3E600765143 /* Assets.xcassets in Resources */,
 				93A12EE12491C3E600765143 /* Main.storyboard in Resources */,
@@ -185,10 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A12EEA249207AA00765143 /* BackgroundImage.swift in Sources */,
+				1079B0DD262B6F880098E71A /* CUtils.m in Sources */,
 				938B18F324939CFA008153AB /* WindowController.swift in Sources */,
 				93A12EDC2491C3E200765143 /* ViewController.swift in Sources */,
-				937A087E26182ABE004A6D0A /* MobileDevice.swift in Sources */,
 				9330C5AE2493D2A30070CB55 /* AboutViewController.swift in Sources */,
 				93A12EDA2491C3E200765143 /* AppDelegate.swift in Sources */,
 			);
@@ -331,7 +331,11 @@
 				CODE_SIGN_ENTITLEMENTS = Betelguese/Betelguese.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Betelguese/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Procursus Installer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -340,9 +344,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Betelguese",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.23aaron.Betelgeuse;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = us.sunflsks.ProcursusInstaller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Betelguese/Betelguese-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Procursus Installer/ProcursusInstaller-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -356,7 +361,11 @@
 				CODE_SIGN_ENTITLEMENTS = Betelguese/Betelguese.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Betelguese/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Procursus Installer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -365,9 +374,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Betelguese",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.23aaron.Betelgeuse;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = us.sunflsks.ProcursusInstaller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Betelguese/Betelguese-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Procursus Installer/ProcursusInstaller-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -375,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93A12ED12491C3E200765143 /* Build configuration list for PBXProject "Betelguese" */ = {
+		93A12ED12491C3E200765143 /* Build configuration list for PBXProject "Procursus Installer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93A12EE42491C3E600765143 /* Debug */,
@@ -384,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93A12EE62491C3E600765143 /* Build configuration list for PBXNativeTarget "Betelguese" */ = {
+		93A12EE62491C3E600765143 /* Build configuration list for PBXNativeTarget "Procursus Installer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93A12EE72491C3E600765143 /* Debug */,
